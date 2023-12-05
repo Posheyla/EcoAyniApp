@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcoAyniApp"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3f7O6UA-andJ7iQNgMIEyS9DQyzDPJcQ" />
+
+        <activity
+            android:name=".ui.edit.EditProfileActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.trayectory.RateServiceActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.trayectory.ConfirmationPageActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.trayectory.TrayectoryUpdateActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.RecyclingDashboardActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.registration.QuestionnairePageActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.password.ChangePasswordPageActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.password.RestorePageActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.registration.RegistrationPageActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.registration.MainActivity"
+            android:theme="@style/Theme.EcoAyniApp"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

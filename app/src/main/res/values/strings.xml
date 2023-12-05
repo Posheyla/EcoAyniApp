@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EcoAyniApp</string>
+
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="restore_password">¿Olvidaste tu contraseña?</string>
+    <string name="new_user">¿Eres nuevo usuario?</string>
+    <string name="sing_in">Ingresar</string>
+    <string name="register">Registrar</string>
+    <string name="welcome_to_ecoayni">Bienvenido a EcoAyni</string>
+    <string name="name">Nombres</string>
+    <string name="last_name">Apellidos</string>
+    <string name="number">Número</string>
+    <string name="questionnsire_top">Responda las siguientes preguntas</string>
+    <string name="frecuency">¿Con qué frecuencia recicla?</string>
+
+    <string name="sent">Enviar</string>
+
+
+
+
+
+
+</resources>
